@@ -1,5 +1,6 @@
 package com.enhakkore.webservice.web;
 
+import com.enhakkore.webservice.dto.posts.PostsSaveRequestDto;
 import com.enhakkore.webservice.domain.posts.PostsRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +19,7 @@ public class WebRestController {
         return "HelloWorld!!";
     }
 
-    @PostMapping("/post")
+    @PostMapping("/posts")
     public void savePosts(@RequestBody PostsSaveRequestDto dto){
         postsRepository.save(dto.toEntity());
     }
