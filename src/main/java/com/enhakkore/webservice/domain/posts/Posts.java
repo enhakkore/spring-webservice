@@ -1,5 +1,6 @@
 package com.enhakkore.webservice.domain.posts;
 
+import com.enhakkore.webservice.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -13,7 +14,7 @@ import javax.persistence.Id;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @Entity
-public class Posts { // 실제 DB의 테이블과 매칭될 클래스이며 보통 Entitiy 클래스
+public class Posts extends BaseTimeEntity { // 실제 DB의 테이블과 매칭될 클래스이며 보통 Entitiy 클래스
 
     @Id
     @GeneratedValue
