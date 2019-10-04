@@ -1,7 +1,7 @@
 package com.enhakkore.webservice.web;
 
 import com.enhakkore.webservice.dto.posts.PostsSaveRequestDto;
-import com.enhakkore.webservice.domain.posts.PostsRepository;
+import com.enhakkore.webservice.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
