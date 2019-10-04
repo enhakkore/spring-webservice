@@ -36,3 +36,5 @@ public class Posts extends BaseTimeEntity { // 실제 DB의 테이블과 매칭�
         this.author = author;
     }
 }
+
+// JPA를 사용하면 DB데이터에 직접 쿼리를 보내기 보다는, 이 Entity 클래스의 수정을 통해 작업합니다.
