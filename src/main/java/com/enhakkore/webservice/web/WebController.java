@@ -17,4 +17,9 @@ public class WebController {
         model.addAttribute("posts", postsService.findAllDesc());
         return "main";
     }
+
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
 }
