@@ -17,12 +17,12 @@ var main = {
             url: '/posts',
             dataType: 'json',
             contentType:'application/json; charset=utf-8',
-            data: JSON.stringify(data)
+            data: JSON.stringify(data),
         }).done(function() {
             alert('글이 등록되었습니다.');
             location.reload();
         }).fail(function (error) {
-            alert(error);
+            alert(error.responseText + " " + error.status);
         });
     }
 
