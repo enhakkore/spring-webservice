@@ -14,7 +14,7 @@ public class Application {
 
     public static void main(String[] args) {
         new SpringApplicationBuilder(Application.class)
-                .profiles(APPLICATION_LOCATION)
+                .properties(APPLICATION_LOCATION)
                 .run(args);
     }
 
