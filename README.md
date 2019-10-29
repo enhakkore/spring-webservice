@@ -1,6 +1,6 @@
 # spring-webservice [![Build Status](https://travis-ci.org/enhakkore/spring-webservice.svg?branch=master)](https://travis-ci.org/enhakkore/spring-webservice)
 
-> 이 저장소는 (https://github.com/jojoldu/springboot-webservice)을 따라하며 공부한 저장소입니다.
+> 이 저장소는 [https://github.com/jojoldu/springboot-webservice](https://github.com/jojoldu/springboot-webservice)을 따라하며 공부한 저장소입니다.
 
 ## 주제 : 게시판 서비스 
 [결과물](https://enhakkore.ml)
@@ -17,8 +17,8 @@
 
 ### 사용한 기술
 * Spring Boot
-* travis
-* nginx
+* Travis CI
+* Nginx
 * AWS EC2/RDS
 
   
