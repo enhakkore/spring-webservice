@@ -2,8 +2,8 @@
 
 > 이 저장소는 [https://github.com/jojoldu/springboot-webservice](https://github.com/jojoldu/springboot-webservice)을 따라하며 공부한 저장소입니다.
 
-## 주제 : 게시판 서비스 
-[결과물](https://13.209.61.137)
+## 주제 : 게시판 서비스
+~[결과물]()~
 
 ### 현재까지 구현한 것
 * 글 등록
@@ -20,5 +20,3 @@
 * Travis CI
 * Nginx
 * AWS EC2/RDS
-
-  
